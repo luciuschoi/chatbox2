@@ -4,6 +4,7 @@ class MessagesController < ApplicationController
   def index
     @messages = Message.all
     @message = Message.new
+    @dummy = helpers.dummy()
   end
 
   def create
@@ -19,7 +20,7 @@ class MessagesController < ApplicationController
       respond_to do | format |
         flash[:error] = 'Message was not sent.'
         format.html { redirect_to messages_path }
-        format.js 
+        format.js
       end
     end
   end
