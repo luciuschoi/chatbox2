@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/github/gemoji.git
+  revision: 7858e79566f427c939e7479b68d1e9897d82098b
+  specs:
+    gemoji (3.0.0)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -188,6 +194,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
+  gemoji!
   github-markup
   jbuilder (~> 2.5)
   jquery-rails

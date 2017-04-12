@@ -18,7 +18,7 @@ gem 'rails-timeago', '~> 2.0'
 gem 'redcarpet'
 gem 'github-markup'
 gem 'kramdown'
-gem 'emoji'
+gem 'gemoji', github: 'github/gemoji'
 
 #
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
