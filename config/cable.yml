@@ -2,10 +2,10 @@ development:
   # adapter: async
   adapter: redis
   url: redis://localhost:6379/1
-  
+
 test:
   adapter: async
 
 production:
   adapter: redis
-  url: redis://localhost:6379/1
+  url: redis://redistogo:cf9caea51b65bc7a268e3c537bc00885@barreleye.redistogo.com:11513/
