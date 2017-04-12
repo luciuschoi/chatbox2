@@ -1,0 +1,9 @@
+<div class='float-right'>
+  <% if user_signed_in? %>
+    <%= current_user.user_id %> |
+    <%= link_to "Logout", destroy_user_session_path, method: :delete, data: {confirm: 'Are you sure?'} %>
+  <% else %>
+    <%= link_to "Login", new_user_session_path %>
+  <% end %>
+</div>
+<div class='clearfix'></div>

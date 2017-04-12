@@ -1,0 +1,16 @@
+<h1>Chatting Room</h1>
+
+<div id='chatting'>
+  <table>
+  <% cache @messages do %>
+    <%= render @messages %>
+  <% end %>
+  </table>
+</div>
+
+<%= simple_form_for @message, remote: true do | f | %>
+  <%= f.input :content, as: :text, label: false, input_html: { rows: 5 }  %>
+  <%= f.submit class: 'btn btn-outline-primary' %>
+<% end %>
+
+<%#= console %>
