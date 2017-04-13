@@ -2,37 +2,51 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h1.page-title {
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
 #chatting {
+  overflow:auto;
   height:30em;
   width: 100%;
-  overflow:auto;
   border:1px solid #ccc;
+  border-radius: 4px;
   margin-bottom: 1em;
-  .message {
-    vertical-align: top;
-    .user {
-      white-space: nowrap;
-      vertical-align: top;
-      padding: 5px;
-      text-align:right;
-      border: 1px solid #ccc;
-    }
-    .content {
-      padding: 5px;
-      border: 1px solid #ccc;
-      width: auto;
-      p {
-        margin-bottom: 3px;
+  padding: 5px;
+  #messages {
+    .message {
+      display: flex;
+      flex-flow: row flex-start;
+      justify-content: flex-start;
+      .user {
+        // border: 1px solid #ccc;
+        width: 10em;
+        white-space: nowrap;
+        vertical-align: top;
+        padding: 5px;
+        text-align:right;
       }
-      pre {
-        border: 1px solid 5px !important;
-        background-color: black;
-        padding:5px 7px;
-        margin-bottom: 3px;
-        border-radius: 3px;
-      }
-      img {
-        @extend .img-fluid;
+      .content {
+        // border: 1px solid #ccc;
+        padding: 5px;
+        width: 100%;
+        p {
+          margin-bottom: 3px;
+        }
+        pre {
+          width: 100%;
+          border: 1px solid 5px !important;
+          background-color: black;
+          padding:5px 7px;
+          margin-bottom: 3px;
+          border-radius: 3px;
+        }
+        img {
+          @extend .img-fluid;
+        }
       }
     }
   }

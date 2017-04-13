@@ -1,8 +1,8 @@
-<tr class='message'>
-  <td class='user'><%= message.user.user_id %> : </td>
-  <td class='content'>
+<div class='message'>
+  <div class='user'><%= message.user.user_id %> : </div>
+  <div class='content'>
     <%#= highlight_code(:ruby, render_markdown( message.content )) %>
-    <%= render_markdown( message.content )%>
+    <%= emojify render_markdown( message.content )%>
     <small class='time_ago'><%= time_ago message.created_at %></small>
-  </td>
-</tr>
+  </div>
+</div>

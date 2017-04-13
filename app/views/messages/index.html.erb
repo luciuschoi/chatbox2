@@ -1,16 +1,18 @@
-<h1>Chatting Room</h1>
+<h1 class='page-title'>Chatting Room</h1>
 
 <div id='chatting'>
-  <table>
+  <div id='messages'>
   <% cache @messages do %>
     <%= render @messages %>
   <% end %>
-  </table>
+  </div>
 </div>
-
+<%= link_to "그래픽 이모지", "https://www.webpagefx.com/tools/emoji-cheat-sheet/", target: '_blank', class: 'float-right'%>
 <%= simple_form_for @message, remote: true do | f | %>
   <%= f.input :content, as: :text, label: false, input_html: { rows: 5 }  %>
   <%= f.submit class: 'btn btn-outline-primary' %>
 <% end %>
-
+<center>
+  - <%= link_to "RORLAB", 'http://rorlab.org', target: '_blank' %> -
+</center>
 <%#= console %>

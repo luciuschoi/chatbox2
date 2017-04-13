@@ -9,7 +9,7 @@ App.chatting = App.cable.subscriptions.create "ChattingChannel",
     # Called when there's incoming data on the websocket for this channel
     # console.log data.to.user_id + ' : ' + data.content
     unless data.message.blank?
-      $("#chatting table").append data.message
+      $("#messages").append data.message
       scroll_bottom()
       PR.prettyPrint()
 
