@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   </head>
 
-<body onload="PR.prettyPrint()">
+  <body onload="PR.prettyPrint()">
     <%= flash_toastr %>
 
     <div class="container-fluid">
@@ -20,5 +20,8 @@
 
       <%= yield %>
     </div>
+    <footer>
+        - <%= link_to "RORLAB", 'http://rorlab.org', target: '_blank' %> -
+    </footer>
   </body>
 </html>
