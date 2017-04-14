@@ -21,6 +21,7 @@ gem 'redcarpet'
 gem 'github-markup'
 gem 'kramdown'
 gem 'gemoji', github: 'github/gemoji'
+gem 'jquery-emojiarea-rails'
 
 #
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
