@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/github/gemoji.git
-  revision: 7858e79566f427c939e7479b68d1e9897d82098b
-  specs:
-    gemoji (3.0.0)
-
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -69,6 +63,7 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    emojionearea-rails (0.1.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -79,7 +74,6 @@ GEM
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
       multi_json (~> 1.2)
-    jquery-emojiarea-rails (0.1.0)
     jquery-rails (4.3.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -195,10 +189,9 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
-  gemoji!
+  emojionearea-rails
   github-markup
   jbuilder (~> 2.5)
-  jquery-emojiarea-rails
   jquery-rails
   kramdown
   listen (~> 3.0.5)

@@ -17,13 +17,13 @@ App.chatting = App.cable.subscriptions.create "ChattingChannel",
 scroll_bottom = ->
   $("#chatting").scrollTop $("#chatting")[0].scrollHeight
 
-submit_message = ->
-  $("#message_content").on 'keydown', (event) ->
-    if event.keyCode is 13 && !event.shiftKey
-      $('input[type=submit]').click()
-      event.target.value = ""
-      event.preventDefault()
+# submit_message = ->
+#   $("#message_content").on 'keydown', (event) ->
+#     if event.keyCode is 13 && !event.shiftKey
+#       $('input[type=submit]').click()
+#       event.target.value = ""
+#       event.preventDefault()
 
 $(document).on "turbolinks:load", ->
-  submit_message()
+  # submit_message()
   scroll_bottom()

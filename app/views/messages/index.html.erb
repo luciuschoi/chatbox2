@@ -8,9 +8,8 @@
   </div>
 </div>
 <span>[사용법] : shift+enter 줄바꾸기, enter 메시지 보내기</span>
-<%= link_to "그래픽 이모지", "https://www.webpagefx.com/tools/emoji-cheat-sheet/", target: '_blank', class: 'float-right'%>
 <%= simple_form_for @message, remote: true do | f | %>
-  <%= f.input :content, as: :text, label: false, input_html: { class: 'emojiarea', rows: 5 }  %>
+  <%= f.input :content, as: :text, label: false, input_html: { class: 'emojionearea', rows: 5 }  %>
   <%= f.submit class: 'btn btn-outline-primary' %>
 <% end %>
 

@@ -20,10 +20,8 @@ gem 'rails-timeago', '~> 2.0'
 gem 'redcarpet'
 gem 'github-markup'
 gem 'kramdown'
-gem 'gemoji', github: 'github/gemoji'
-gem 'jquery-emojiarea-rails'
+gem 'emojionearea-rails'
 
-#
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record

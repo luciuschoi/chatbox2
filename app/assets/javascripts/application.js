@@ -13,9 +13,8 @@
 //= require jquery
 //= require tether
 //= require bootstrap
-//= require jquery.emojiarea
-//= require packs/basic/emojis
-//= require emojiarea_init
+//= require emojionearea_init
+//= require emojionearea
 //= require rails-timeago
 //= requrie google-code-prettify/prettify.js
 //= require locales/jquery.timeago.ko.js
