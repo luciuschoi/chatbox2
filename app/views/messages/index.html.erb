@@ -11,6 +11,7 @@
 <%= simple_form_for @message, remote: true do | f | %>
   <%= f.input :content, as: :text, label: false, input_html: { class: 'emojionearea', rows: 5 }  %>
   <%= f.submit class: 'btn btn-outline-primary' %>
+  <div class='float-right'><%= link_to "마크다운 사용법", "https://gist.github.com/ihoneymon/652be052a0727ad59601", target: '_blank'%></div><div class='clearfix'></div>
 <% end %>
 
 <%#= console %>
