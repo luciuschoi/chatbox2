@@ -20,7 +20,7 @@ gem 'rails-timeago', '~> 2.0'
 gem 'redcarpet'
 gem 'github-markup'
 gem 'kramdown'
-gem 'emojionearea-rails', '~> 1.1.1'
+gem 'emojionearea-rails', '~> 1.1.2'
 # gem 'emojionearea-rails', github: 'luciuschoi/emojionearea-rails'
 # gem 'emojionearea-rails', path: '/Users/hyo/prj/gemify/emojionearea-rails'
 

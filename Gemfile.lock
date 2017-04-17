@@ -63,7 +63,7 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
-    emojionearea-rails (1.1.1)
+    emojionearea-rails (1.1.2)
       gemoji (~> 3.0.0)
       rumoji (~> 0.5.0)
     erubis (2.7.0)
@@ -193,7 +193,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise
-  emojionearea-rails (~> 1.1.1)
+  emojionearea-rails (~> 1.1.2)
   github-markup
   jbuilder (~> 2.5)
   jquery-rails

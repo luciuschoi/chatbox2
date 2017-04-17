@@ -14,7 +14,7 @@
 //= require tether
 //= require bootstrap
 //= require emojionearea_init
-//= require emojionearea
+//= require emojionearea.min
 //= require rails-timeago
 //= requrie google-code-prettify/prettify.js
 //= require locales/jquery.timeago.ko.js
