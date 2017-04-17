@@ -2,9 +2,8 @@ class MessagesController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    @messages = Message.all
+    @messages = Message.all.includes(:user)
     @message = Message.new
-    @dummy = helpers.dummy()
   end
 
   def create

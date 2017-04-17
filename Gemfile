@@ -20,10 +20,9 @@ gem 'rails-timeago', '~> 2.0'
 gem 'redcarpet'
 gem 'github-markup'
 gem 'kramdown'
+gem 'emojionearea-rails', '~> 1.1.0'
 # gem 'emojionearea-rails', github: 'luciuschoi/emojionearea-rails'
-gem 'emojionearea-rails', '~> 1.0.0'
-# gem 'rumoji', "~> 0.5.0"
-# gem 'gemoji', "~> 3.0.0"
+# gem 'emojionearea-rails', path: '/Users/hyo/prj/gemify/emojionearea-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
